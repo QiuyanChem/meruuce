@@ -1,0 +1,37 @@
+body{
+	background: #68cdd5;
+	}
+	.return{
+		margin-left: 30px;
+		margin-right: 20px;
+		}
+.logo{
+	margin: 100px auto;
+	text-align: center;
+}
+p{
+	/*文字设置白色*/
+	color: white;
+	/*设置内边距18%,可根据屏幕大小自适应，同时也会居中*/
+	padding: 18%;
+}
+/*设置图片像左边浮动，右边距为10%*/
+.img-left{
+	float: left;
+	margin-left: 10%;
+}
+/*设置图片像右边浮动，右边距为10%*/
+.img-right{
+	float: right;
+	margin-right: 10%;
+}
+.img-left img{
+	/*因为声明了viewpor,图片文字大小变大，因此定义图片大小*／
+	with:80px;
+	height:80px;
+}
+.img-right img{
+	/*因为声明了viewpor,图片文字大小变大，因此定义图片大小*／
+	with:80px;
+	height:80px;
+}
